@@ -1,0 +1,221 @@
+.guess .mrno,.stars .mrno,.korea .mrno,.show .mrno,.music .mrno,.hot .mrno,.iqiyi .mrno{
+	margin-right: 0px;
+}
+
+.login a:link,.login a:visited{
+	color:#ccc;
+}
+.top_nav a:hover,.login a:hover{
+	color: #5aa700;
+}
+section{
+	padding-top:14px ;
+	border-bottom:1px solid #e7e7e7;
+}
+section.top{
+	padding-top: 0px;
+}
+section .green_content{
+	margin-top: 0px;
+}
+section h3.green{
+	border-bottom: none;
+	margin-bottom: 10px;
+}
+section .green a{
+	margin-top: 14px;
+}
+.top{
+	height: 340px;
+	position: relative;
+}
+.top_left,.top_right{
+	width: 768px;
+	height: 340px;
+	opacity: 0.4;
+	filter:alpha(opacity=40);
+}
+.top_left{
+	z-index: 1;
+	position: absolute;
+}
+.top_right{
+	z-index: 2;
+	position: absolute;
+	right: 0px;
+}
+.top_center{
+	z-index: 3;
+	position: absolute;
+	margin-left:-384px; /*注意这里是宽度的一半*/
+	left: 50%;
+}
+.wenzi a{
+	height: 34px;
+	line-height: 34px;
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #fff;
+}
+.wenzi span{
+	height: 14px;
+	width: 2px;
+	float: left;
+	background-position: -363px -11px;
+	margin-top: 11px;
+}
+.cast{
+	float: left;
+	width:60px;
+	height: 49px;
+	background:url(../img/enter_img/bgplay_1.png) no-repeat;
+	margin-top: 10px;
+	margin-left: 22px;
+}
+.bg_nav21{
+	width: 765px;
+	height: 70px;
+	position: absolute;
+	z-index: 7;
+	top: 270px;
+}
+.zhezhao{
+	width: 768px;
+	background: #000000;
+	opacity: 0.5;
+	filter:alpha(opacity=50);
+	height: 70px;
+	position: absolute;
+	z-index: 6;
+	top: 270px;
+}
+.nav2_info{
+	float: left;
+	width: 295px;
+	margin-left: 11px;
+}
+.nav2_infoh3{
+	height: 35px;
+	line-height: 42px;
+	font-size: 18px;
+	color: #FFFFFF;
+}
+.nav2_infode{
+	height: 35px;
+	line-height: 29px;
+	color: #FFFFFF;
+}
+.nav2_zuo{
+	float:left ;
+	width: 11px;
+	height: 23px;
+	background: url(../img/enter_img/arrow_stroll.png) no-repeat -1px 0px;
+	margin-top: 22px;
+}
+.nav2_you{
+	float:right ;
+	width: 11px;
+	height: 23px;
+	background: url(../img/enter_img/arrow_stroll.png) no-repeat -22px 0px;
+	margin-top: 22px;
+	margin-left: 14px;
+}
+.bg_nav21 ul{
+	float: left;
+	width: 335px;
+	height: 70px;
+}
+.bg_nav21 li{
+	float: left;
+	width: 50px;
+	height: 50px;
+	border: 1px solid #525252;
+	margin-left: 15px;
+	margin-top: 10px;
+}
+.bg_nav21 li:hover{
+	border: 1px solid #6db506;
+}
+.toutiao{
+	height: 346px;
+}
+.enter_img{
+	width: 400px;
+}
+.news{
+	width: 380px;
+	float: left;
+	position: relative;
+	top: -11px;
+	margin-left: 20px;
+}
+.news dl{
+	height: 90px;
+	border-bottom: 1px dotted #ccc;
+}
+.news .dl_last{
+	border-bottom: none;
+}
+.news dt{
+	height: 55px;
+	line-height: 55px;
+	font-size: 20px;
+}
+.news dd{
+	line-height: 16px;
+	word-spacing: 14px;
+}
+.enter_right{
+	width: 380px;
+}
+.enter_right .mrno{
+	margin-right: 0px;
+}
+.guess{
+	height: 187px;
+}
+.stars{
+	height: 336px;
+}
+.korea{
+	height: 350px;
+}
+.advertise_last{
+	height: 100px;
+	padding-top: 0px;
+}
+.show{
+	height: 350px;
+}
+.hot{
+	height: :;px;
+}
+.music{
+	height: 350px;
+}
+.iqiyi{
+	height: 358px;
+}
+.co_operate{
+	padding-left: 14px;
+	height: 110px;
+	border: 1px solid #f1f1f1;
+	background-color: #f6f6f6;
+}
+.co_operate dt{
+	color: #518900;
+	height: 31px;
+	line-height: 34px;
+	font-size: 16px;
+}
+.co_operate dd{
+	line-height: 22px;
+	width: 80px;
+	float: left;
+}
+footer{
+	margin-top: 74px;
+	height: 86px;
+	border-top: 1px solid #ccc;
+}

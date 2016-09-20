@@ -1,0 +1,27 @@
+body,p,h1,h3,h4,h5,p,dl,dd{
+	margin: 0px;
+}
+ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+body{
+	min-width: 1200px;
+	font-size: 12px;
+	font-family: "微软雅黑";
+	color: #98999b;
+}
+a{
+	text-decoration: none;
+	color: #333534;
+	font-size-12px;
+	font-weight: normal;
+}
+a:hover{
+	color:#689e00;
+}
+img{
+	border: none;
+	vertical-align: top;
+}
